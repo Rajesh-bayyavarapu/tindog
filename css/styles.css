@@ -1,10 +1,11 @@
 
 #title{
     background-color: #ff4c68;
+    
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%; 
 }
 h1{
     font-family: "Montserrat";
@@ -48,14 +49,20 @@ p{
 }
 /* Titme image */
 .title-image{
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 
 /* Featuer - section */
 #features{
     padding: 7% 15%;
     text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+
     
 }
 .feature-box{
@@ -69,6 +76,7 @@ p{
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+    
 }
 .testimonial-image{
     width: 20%;
